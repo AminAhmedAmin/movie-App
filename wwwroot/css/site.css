@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+
+/** costum**/
+
+textarea{
+    resize:none 
+}
+
+.field-validation-error{
+    font-size:14px
+}
+
+
+
+
+
+
+img {
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
+    transition:all .5s ease-in-out
+}
+
+
+    img:hover {
+        transform: scale(.8);
+       
+        transition: .5s;
+        cursor:pointer;
+    }
